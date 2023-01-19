@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Website/static/css/main.03999632.css",
+    "main.js": "/Website/static/js/main.c684d848.js",
+    "static/media/Stars-6962.mp4": "/Website/static/media/Stars-6962.cfbcea702e599911379e.mp4",
+    "static/media/websiteprofile.png": "/Website/static/media/websiteprofile.1b734b32f1efe634ca6f.png",
+    "static/media/resume.png": "/Website/static/media/resume.13cbd763c922efb7ecb5.png",
+    "static/media/countrychanger.png": "/Website/static/media/countrychanger.49c44e70e30604b00642.png",
+    "static/media/heroImage.JPG": "/Website/static/media/heroImage.bc98ba2d8c4204be5ad7.JPG",
+    "static/media/Natalie.Au.resume.pdf": "/Website/static/media/Natalie.Au.resume.1a8f0ea4713da61e9b20.pdf",
+    "index.html": "/Website/index.html",
+    "main.03999632.css.map": "/Website/static/css/main.03999632.css.map",
+    "main.c684d848.js.map": "/Website/static/js/main.c684d848.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03999632.css",
+    "static/js/main.c684d848.js"
+  ]
+}
