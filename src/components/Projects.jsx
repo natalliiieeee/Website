@@ -5,7 +5,7 @@ import countrychanger from "../assets/portfolio/countrychanger.png";
 
 const Projects = () => {
   return (
-    <div  name="projects" className="relative bg-gray-50 py-36 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-zinc-900 to-cyan-600 text-blue-800">
+    <div  name="projects" className="relative bg-gray-50 py-36 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-zinc-900 to-cyan-600 text-white">
       <div className="relative max-w-7xl mx-auto">
         <div className="text-center">
           <h2 className="flex justify-center w-6/12 text-5xl font-bold mx-auto border-b-4 border-black  sm:text-4xl sm:leading-10">

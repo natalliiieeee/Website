@@ -10,7 +10,7 @@
         
         
          <div name= "home "> 
-         <video src={stars} muted loop autoPlay className=" absolute left-0 top-10 w-full h-full object-cover bg-scroll z-0 overflow-hidden"> </video>
+         <video src={stars} muted loop autoPlay className=" absolute left-0 top-10 w-full h-full object-cover bg-scroll z-0 "> </video>
         <div class="relative group ">
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row " >
                 

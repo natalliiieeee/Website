@@ -46,18 +46,18 @@ const Contact = () => {
     
     <div
       name="contact"
-      className=" justify-center w-full h-screen bg-gradient-to-b from-cyan-300 to-cyan-50 p-4 text-blue-800" 
+      className=" justify-center w-full h-screen bg-gradient-to-b from-cyan-300 to-cyan-50 p-4 text-blue-800 " 
     > 
       <div className="flex flex-col p-40 justify-center max-w-screen-lg mx-auto h-full" >
         <div className="pb-20">
-          <p className="flex justify-center text-5xl font-bold  border-b-4 border-black">
+          <p className="flex justify-center text-5xl font-bold  border-b-4 border-black mt-12 md:mt-0">
          
             Contact Me
           </p>
  
         </div>
         
-        <div className=" flex justify-center align-middle sm:px-6 ">
+        <div className=" flex justify-center align-middle ">
         <Lottie animationData={contactAni} loop={true} className="h-3/4 hidden md:block" />
           <form
             action="https://getform.io/f/9bd87870-7365-4b47-8029-bf2478966e9b"
@@ -90,7 +90,7 @@ const Contact = () => {
           </form>
           </div>
         
-          <view  className="flex items-center justify-center text-gray-400 md:block">
+          <view  className="flex items-center justify-center text-gray-400 overflow:hidden">
         <div className="mx-8 hover:cursor-pointer"> <a href={""}/>
         <FaGithub size={50} onClick={event =>  window.location.href='https://github.com/natalliiieeee'}/>GitHub
         
