@@ -58,7 +58,7 @@ const Contact = () => {
         </div>
         
         <div className=" flex justify-center align-middle sm:px-6 ">
-        <Lottie animationData={contactAni} loop={true} className="h-3/4"/>
+        <Lottie animationData={contactAni} loop={true} className="h-3/4 hidden md:block" />
           <form
             action="https://getform.io/f/9bd87870-7365-4b47-8029-bf2478966e9b"
             method="POST"
@@ -90,7 +90,7 @@ const Contact = () => {
           </form>
           </div>
         
-          <view  className="flex items-center justify-center text-gray-400 ">
+          <view  className="flex items-center justify-center text-gray-400 md:block">
         <div className="mx-8 hover:cursor-pointer"> <a href={""}/>
         <FaGithub size={50} onClick={event =>  window.location.href='https://github.com/natalliiieeee'}/>GitHub
         
