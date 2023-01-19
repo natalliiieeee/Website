@@ -3,68 +3,66 @@ import React from "react";
 import websiteprofile from "../assets/portfolio/websiteprofile.png";
 import countrychanger from "../assets/portfolio/countrychanger.png";
 
-
 const Projects = () => {
-//   const portfolios = [
-//     {
-//       id: 1,
-//       src: arrayDestruct,
-//     },
-//     {
-//       id: 2,
-//       src: reactParallax,
-//     },
-//     {
-//       id: 3,
-//       src: navbar,
-//     },
-//   ];
-
   return (
-    <div
-      name="projects"
-      className=" w-full h-screen top-0 bg-gradient-to-b from-zinc-900 to-cyan-600 text-white"
-    >
-      <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-10">
-          <p className="text-5xl font-bold inline border-b-9 border-gray-500">
+    <div  name="projects" className="relative bg-gray-50 py-36 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-zinc-900 to-cyan-600 text-blue-800">
+      <div className="relative max-w-7xl mx-auto">
+        <div className="text-center">
+          <h2 className="flex justify-center w-6/12 text-5xl font-bold mx-auto border-b-4 border-black  sm:text-4xl sm:leading-10">
             Projects
-          </p>
-  
+          </h2>
+          
         </div>
+        <div className="mt-8 grid gap-16  pt-12 sm:grid-cols-1 md:grid-cols-2">
 
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-9 px-20 sm:px-0">
-         
-            <div className="shadow-md shadow-gray-600 rounded-lg bg-gray-500 hover:scale-105">
-              <a href="https://github.com/natalliiieeee/Website">
-              <img
-                src={websiteprofile}
-                
-                alt=""
-                className="rounded-md duration-200 hover:translate-y-4 z-10"
-              /></a>
-              <p className="text-center rounded-md bg-gradient-to-b to-teal-700 from-cyan-400 opacity-0 hover:opacity-100 duration-100 absolute inset-0 z-10 flex justify-center items-center text-6xl text-white  font-semibold">	Built a website using React JS, EmailJS and Tailwind CSS. Used Node JS Base Environment Setup.
-              Created a user-friendly website using GUI system.
-              Used next.js to create a server side rendering system.
-              </p>
-              
-            </div>
-            <div className=" shadow-md shadow-gray-600 rounded-lg bg-gray-500 hover:scale-105 ">
+      
+        <div className="relative rounded-md shadow-md ">
+    <a href="https://github.com/natalliiieeee/Website">
+        <img
+        className="w-full object-cover rounded-md"
+        src={websiteprofile}
+        alt="Project 1"
+        />
+    
+    <div className="absolute inset-0 p-6 opacity-0 bg-gradient-to-b to-teal-900 from-cyan-600 hover:opacity-100  rounded">
+        <div className="relative">
+        
+        <h3 className="text-lg leading-6 font-medium text-white">
+        Built a website using React JS, EmailJS and Tailwind CSS. 
+        <br></br>
+        Used Node JS Base Environment Setup.
+        <br></br>
+             Created a user-friendly website using GUI system.
+             <br></br>
+               Used next.js to create a server side rendering system.
+        </h3>
+        </div>
+    </div>
+</a>
+
+          </div>
+
+          <div className="relative rounded-md shadow-md">
             <a href="https://github.com/natalliiieeee/countryChangerApp">
               <img
+                className="w-full rounded-md"
                 src={countrychanger}
-                
-                alt=""
-                className="rounded-md duration-200 "
-              /></a>
-              <p className=" text-center rounded-md bg-gradient-to-b to-teal-700 from-cyan-400 opacity-0 hover:opacity-100 duration-100 absolute inset-0 z-10 flex justify-center items-center text-6xl text-white font-semibold">	Used REST API to retrieve demographic and other data from the World Bank’s data repository, rendered the retrieved data or the processed data using appropriately selected visualization.</p>
-              
+                alt="Project 2"
+              />
+            
+            <div className="absolute inset-0 p-6 opacity-0 bg-gradient-to-b to-teal-900 from-cyan-600 hover:opacity-100  rounded">
+              <div className="relative">
+                <h4 className="text-lg leading-6 font-medium text-white">
+                Used REST API to retrieve demographic and other data from the World Bank’s data repository, rendered the retrieved data or the processed data using appropriately selected visualization.
+                </h4>
+              </div>
             </div>
-          
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default Projects;

@@ -57,7 +57,7 @@ const Contact = () => {
  
         </div>
         
-        <div className=" flex justify-center align-middle ">
+        <div className=" flex justify-center align-middle sm:px-6 ">
         <Lottie animationData={contactAni} loop={true} className="h-3/4"/>
           <form
             action="https://getform.io/f/9bd87870-7365-4b47-8029-bf2478966e9b"

@@ -9,9 +9,9 @@
     return (
         
         
-         <div name= "home"> 
-         <video src={stars} muted loop autoPlay className=" absolute left-0 top-10 w-full h-full object-cover bg-scroll z-0 "> </video>
-        <div class="relative group">
+         <div name= "home "> 
+         <video src={stars} muted loop autoPlay className=" absolute left-0 top-10 w-full h-full object-cover bg-scroll z-0 overflow-hidden"> </video>
+        <div class="relative group ">
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row " >
                 
                 <div className="flex flex-col justify-center h-screen">
