@@ -62,7 +62,7 @@ const Contact = () => {
           <form
             action="https://getform.io/f/9bd87870-7365-4b47-8029-bf2478966e9b"
             method="POST"
-            className=" flex flex-col w-full md:w-1/2 pb-20"
+            className=" flex flex-col w-full md:w-1/2 md:pb-20"
           >
             <input
               type="text"
@@ -90,19 +90,19 @@ const Contact = () => {
           </form>
           </div>
         
-          <view  className="flex items-center justify-center text-gray-400 overflow:hidden">
-        <div className="mx-8 hover:cursor-pointer"> <a href={""}/>
+          <view  className=" flex items-center justify-center text-gray-400">
+        <div className="mx-6 hover:cursor-pointer"> <a href={""}/>
         <FaGithub size={50} onClick={event =>  window.location.href='https://github.com/natalliiieeee'}/>GitHub
         
         
         </div>
-        <div className="mx-8 hover:cursor-pointer">    
+        <div className="mx-6 hover:cursor-pointer">    
         <HiOutlineMail size={50} onClick={event => window.location.href='mailto:natalieaau@gmail.com'}/>Email
         </div>
-        <div className="mx-8 hover:cursor-pointer">        
+        <div className="mx-6 hover:cursor-pointer">        
         <FaLinkedin size={50} onClick={event =>  window.location.href='https://linkedin.com/in/natalliiieeee'}/>Linkedin
         </div>
-        <div className="mx-5 hover:cursor-pointer ">    
+        <div className="mx-4 hover:cursor-pointer ">    
         <FaDownload size={50} onClick={() => FileDownload(resume, 'Natalie.Au.resume.pdf')}/>Resume
         </div>   </view> 
       </div>
