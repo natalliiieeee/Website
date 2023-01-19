@@ -12,10 +12,9 @@
          <div name= "home "> 
          <video src={stars} muted loop autoPlay className=" absolute left-0 top-10 w-full h-full object-cover bg-scroll z-0 "> </video>
         <div class="relative group ">
-            <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row " >
+            <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 sm:flex-row " >
                 
                 <div className="flex flex-col justify-center h-screen">
-                {/* <div className="bg-auto   bg-white/3 backdrop-blur-sm"></div> */}
                 
                 <h2 className="text-4xl sm:text-7xl font-bold text-white  ">About 
                 <Typewriter
