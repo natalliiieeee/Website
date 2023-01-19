@@ -14,7 +14,7 @@
         <div class="relative group">
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row " >
                 
-                <div className="flex flex-col justify-center h-screen  hover:blur-none hover:scale-125 ease-in duration-150">
+                <div className="flex flex-col justify-center h-screen">
                 {/* <div className="bg-auto   bg-white/3 backdrop-blur-sm"></div> */}
                 
                 <h2 className="text-4xl sm:text-7xl font-bold text-white  ">About 
