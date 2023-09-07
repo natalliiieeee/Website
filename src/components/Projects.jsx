@@ -57,7 +57,7 @@ const Projects = () => {
 
           {/* Project 3 - Blockchain Blog */}
           <div className="relative rounded-md ">
-            <a href="<https://lba-blog.vercel.app/>">
+            <a href="https://lba-blog.vercel.app/">
               <img
                 className="w-full rounded-md"
                 src={blockchainblog}
