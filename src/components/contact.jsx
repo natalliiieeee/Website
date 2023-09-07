@@ -3,7 +3,7 @@ import Lottie from "lottie-react";
 import contactAni from "../assets/contactAni.json"
 import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import resume from "../assets/Natalie.Au.resume.pdf";
+import resume from "../assets/resume.png";
 import FileDownload from 'react-file-download';
 
 
@@ -46,7 +46,7 @@ const Contact = () => {
     
     <div
       name="contact"
-      className=" justify-center w-full h-screen bg-gradient-to-b from-cyan-300 to-cyan-50 p-4 text-blue-800 " 
+      className=" justify-center w-full h-screen bg-gradient-to-b from-cyan-700 to-cyan-900 p-4 text-white " 
     > 
       <div className="flex flex-col p-40 justify-center max-w-screen-lg mx-auto h-full" >
         <div className="pb-20">
@@ -103,7 +103,7 @@ const Contact = () => {
         <FaLinkedin size={50} onClick={event =>  window.location.href='https://linkedin.com/in/natalliiieeee'}/>Linkedin
         </div>
         <div className="mx-4 hover:cursor-pointer ">    
-        <FaDownload size={50} onClick={() => FileDownload(resume, 'Natalie.Au.resume.pdf')}/>Resume
+        <FaDownload size={50} onClick={() => FileDownload(resume, 'resume.png')}/>Resume
         </div>   </view> 
       </div>
     </div>

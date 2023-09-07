@@ -9,7 +9,7 @@
     return (
         
         
-         <div name= "home "> 
+         <div name= "home"> 
          <video src={stars} muted loop autoPlay className=" absolute left-0 top-10 w-full h-full object-cover bg-scroll z-0 "> </video>
         <div class="relative group ">
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 sm:flex-row " >
@@ -26,7 +26,7 @@
                 />
                 </h2> 
                 <p className="text-white py-4 max-w-md text-xl">
-                Hello, my name is Natalie! I am a third year computer science student at York Univeristy. I am from Vancouver BC and love learning new technology. One of my passions include educating the next generation of technology users.
+                I'm a Full Stack Developer committed to delivering exceptional results and leveraging my skills to drive innovation. I am proficient in front-end and back-end technologies, I craft user-friendly web applications. My passion lies in creating clean, responsive interfaces and robust server-side solutions. I excel in collaborative, agile environments and stay updated with emerging tech trends and use them to my advantage.
 
                 </p>
                 </div>

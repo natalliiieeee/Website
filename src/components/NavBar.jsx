@@ -34,7 +34,7 @@ const NavBar = () => {
         </div>
        
         <ul className="hidden md:flex absolute right-20 ">
-          <li className='px-4 cursor-pointer capitalize font-medium text-gray-600 hover:scale-110 duration-200'> <Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link></li>
+          <li className='px-4 cursor-pointer capitalize font-medium text-gray-600 hover:scale-110 duration-200'> <Link to="home" spy={true} smooth={true}>Home</Link></li>
         
           <li className='px-4 cursor-pointer capitalize font-medium text-gray-600 hover:scale-110 duration-200'><Link  to="projects" spy={true} smooth={true}>Projects</Link>  </li>
           
@@ -51,7 +51,7 @@ const NavBar = () => {
               
        <ul className='flex flex-col justify-center items-center absolute top-0 right-0 w-full h-screen bg-gradient-to-br  from-zinc-900 to-cyan-500 z-10 sm:invisible'>
       
-          <li className='py-4 cursor-pointer capitalize  text-gray-300 hover:scale-110 duration-200 text-4xl'> <Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link></li> 
+          <li className='py-4 cursor-pointer capitalize  text-gray-300 hover:scale-110 duration-200 text-4xl'> <Link  to="home" spy={true} smooth={true}>Home</Link></li> 
              
           <li className='py-4 cursor-pointer capitalize  text-gray-300 hover:scale-110 duration-200 text-4xl'><Link  to="projects" spy={true} smooth={true}>Projects</Link> </li>
           
