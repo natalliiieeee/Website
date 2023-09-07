@@ -22,9 +22,9 @@ const Projects = () => {
                 src={websiteprofile}
                 alt="Project 1"
               />
-              <div className="absolute inset-0 p-6 opacity-0 bg-cyan-600 hover:opacity-100  rounded">
+              <div className="absolute inset-0 p-4 opacity-0 bg-cyan-600 hover:opacity-100  rounded">
                 <div className="relative">
-                  <h3 className="text-lg leading-6 font-medium text-white">
+                  <h3 className="text-sm leading-6 font-medium text-white sm:text-base md:text-md lg:text-lg text-white">
                   A single-page React-based web application that effectively showcases my wide range of skills, experience, and projects, while also ensuring cross-device compatibility through the integration of responsive design principles.
                   <br></br>Tech stack: JavaScript ,Typescript, Material-UI, CSS, Tailwind CSS
                    
@@ -43,9 +43,9 @@ const Projects = () => {
                 src={countrychanger}
                 alt="Project 2"
               />
-              <div className="absolute inset-0 p-6 opacity-0 bg-cyan-600 hover:opacity-100  rounded">
+              <div className="absolute inset-0 p-4 opacity-0 bg-cyan-600 hover:opacity-100  rounded">
                 <div className="relative">
-                  <h4 className="text-lg leading-6 font-medium text-white">
+                  <h4 className="text-sm leading-6 font-medium text-white sm:text-base md:text-md lg:text-lg text-white">
                     Used REST API to retrieve demographic and other data from the World Bank’s data repository, rendered the retrieved data or the processed data using appropriately selected visualization.
                     Leveraging data stored in JSON format to dynamically generate graphical representations of chosen countries.
 <br></br>Tech stack: Java, JFreeChart, Swing, AWT
@@ -63,9 +63,9 @@ const Projects = () => {
                 src={blockchainblog}
                 alt="Blockchain Blog"
               />
-              <div className="absolute inset-0 p-6 opacity-0 bg-cyan-600 hover:opacity-100  rounded">
-                <div className="relative">
-                  <h4 className="text-lg leading-6 font-medium text-white">
+              <div className=" absolute inset-0 p-4 opacity-0 bg-cyan-600 hover:opacity-100 rounded lg:text-lg">
+                <div className="">
+                  <h4 className="text-sm leading-6 font-medium text-white sm:text-base md:text-md lg:text-lg text-white">
                   Used typescript to create a web app for blog management, including reading, uploading, deleting, and commenting, with an efficient tag-based search functionality.
                   <br></br>Tech stack: Typescript, Tailwind CSS, Next.js, Post CSS, React router
 
